@@ -9,5 +9,12 @@ public class Main {
         else {
             System.out.println(pessoa2.nome + " é mais velho que " + pessoa.nome);
         }
+
+        if (pessoa.isMaiorDeIdade()){
+            System.out.println(pessoa.nome + " é de maior");
+        }
+        else{
+            System.out.println(pessoa.nome + " não é de maior");
+        }
     }
 }
